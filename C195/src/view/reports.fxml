@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.reportsController">
+   <children>
+      <Button fx:id="byMonth" layoutX="53.0" layoutY="14.0" mnemonicParsing="false" onAction="#onMonth" text="Appointment by Month and Type" />
+      <Button fx:id="byContact" layoutX="80.0" layoutY="62.0" mnemonicParsing="false" onAction="#onContact" text="Schedule for Contacts" />
+      <Button fx:id="goBack" layoutX="118.0" layoutY="159.0" mnemonicParsing="false" onAction="#onBack" text="Go Back" />
+      <Button fx:id="byCustomer" layoutX="30.0" layoutY="111.0" mnemonicParsing="false" onAction="#onCustomer" text="Amount of appointments per Customer" />
+   </children>
+</AnchorPane>

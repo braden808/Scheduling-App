@@ -1,0 +1,83 @@
+
+Aug 21, 2021 10:04:48 PM controller.loginController onLogin
+SEVERE: Failed Login attempt with Username: Tester on 2021-08-21 at 22:04:48.281465.
+Aug 21, 2021 10:05:02 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-21 at 22:05:02.604470.
+Aug 22, 2021 1:00:36 AM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-22 at 01:00:36.273264.
+Aug 22, 2021 1:52:06 AM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-22 at 01:52:06.820630.
+Aug 23, 2021 4:32:37 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 16:32:37.798022.
+Aug 23, 2021 4:33:10 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 16:33:10.728744.
+Aug 23, 2021 4:45:43 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 16:45:43.703230.
+Aug 23, 2021 4:58:05 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 16:58:05.207853.
+Aug 23, 2021 4:59:51 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 16:59:51.356312.
+Aug 23, 2021 5:04:44 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 17:04:44.196115.
+Aug 23, 2021 5:06:29 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 17:06:29.114623.
+Aug 23, 2021 5:08:07 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 17:08:07.666829.
+Aug 23, 2021 5:20:34 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 17:20:34.587432.
+Aug 23, 2021 5:32:39 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 17:32:39.252013.
+Aug 23, 2021 5:34:15 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 17:34:15.063098.
+Aug 23, 2021 5:37:37 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 17:37:37.090545.
+Aug 23, 2021 5:44:59 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 17:44:59.386200.
+Aug 23, 2021 5:49:40 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 17:49:40.789264.
+Aug 23, 2021 5:50:57 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 17:50:57.847786.
+Aug 23, 2021 5:52:41 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 17:52:41.233304.
+Aug 23, 2021 6:05:36 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 18:05:36.230409.
+Aug 23, 2021 6:08:04 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 18:08:04.313939.
+Aug 23, 2021 6:14:05 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 18:14:05.757533.
+Aug 23, 2021 6:18:27 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 18:18:27.670312.
+Aug 23, 2021 6:20:54 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 18:20:54.428289.
+Aug 23, 2021 6:30:38 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 18:30:38.516231.
+Aug 23, 2021 6:33:11 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 18:33:11.848613.
+Aug 23, 2021 6:52:08 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 18:52:08.957183.
+Aug 23, 2021 6:55:57 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 18:55:57.339031.
+Aug 23, 2021 6:58:48 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 18:58:48.266942.
+Aug 23, 2021 7:02:31 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 19:02:31.905558.
+Aug 23, 2021 7:03:08 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 19:03:08.071813.
+Aug 23, 2021 7:03:57 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 19:03:57.991043.
+Aug 23, 2021 7:36:43 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 19:36:43.274749.
+Aug 23, 2021 7:42:29 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 19:42:29.381261.
+Aug 23, 2021 7:46:38 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 19:46:38.764781.
+Aug 23, 2021 7:55:52 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 19:55:52.796807.
+Aug 23, 2021 9:36:48 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 21:36:48.635092.
+Aug 23, 2021 9:44:09 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 21:44:09.299112.
+Aug 23, 2021 9:47:44 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 21:47:44.536049.
+Aug 23, 2021 10:01:42 PM controller.loginController onLogin
+SEVERE: Successful Login by User: test on 2021-08-23 at 22:01:42.094528.

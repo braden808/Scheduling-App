@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.reportByMonthAndTypeController">
+   <children>
+      <TableView fx:id="monthTable" layoutY="66.0" prefHeight="500.0" prefWidth="344.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="50.0">
+        <columns>
+          <TableColumn fx:id="monthCol" prefWidth="196.0" text="Month" />
+          <TableColumn fx:id="appointmentType" minWidth="0.0" prefWidth="193.0" text="Appointment Type" />
+            <TableColumn fx:id="numberCol" minWidth="0.0" prefWidth="210.0" text="# of Appointments" />
+        </columns>
+      </TableView>
+      <Label alignment="CENTER" layoutX="8.0" layoutY="26.0" prefHeight="23.0" prefWidth="330.0" text="Appointments per Month and Type" textAlignment="CENTER" AnchorPane.bottomAnchor="451.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="26.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

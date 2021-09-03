@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.mainController">
+   <children>
+      <AnchorPane maxHeight="700.0" maxWidth="280.0" prefHeight="700.0" prefWidth="280.0" style="-fx-background-color: d3d3d3;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TableView fx:id="mainCustomersTable" prefHeight="639.0" prefWidth="290.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="50.0">
+              <columns>
+                <TableColumn fx:id="customerId" prefWidth="91.0" resizable="false" text="Customer ID" />
+                  <TableColumn fx:id="customerName" prefWidth="168.0" resizable="false" text="Customer Name" />
+              </columns>
+            </TableView>
+            <ButtonBar prefHeight="50.0" prefWidth="280.0">
+              <buttons>
+                <Button fx:id="mainCustomerAdd" mnemonicParsing="false" onAction="#onAddCustomer" text="Add">
+                     <font>
+                        <Font name="Arial" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="mainCustomerUpdate" layoutX="220.0" layoutY="22.0" mnemonicParsing="false" onAction="#onUpdateCustomer" text="Update">
+                     <font>
+                        <Font name="Arial" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="mainCustomerDelete" layoutX="220.0" layoutY="22.0" mnemonicParsing="false" onAction="#onDeleteCustomer" text="Delete" />
+              </buttons>
+               <padding>
+                  <Insets right="20.0" />
+               </padding>
+            </ButtonBar>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="750.0" prefWidth="1000.0" styleClass="gray-background" AnchorPane.leftAnchor="290.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <TableView fx:id="appointmentTable" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="50.0">
+               <columns>
+                  <TableColumn fx:id="apptIDCol" prefWidth="56.0" text="Appt. ID" />
+                  <TableColumn fx:id="titleCol" prefWidth="88.0" text="Title" />
+                  <TableColumn fx:id="descriptionCol" prefWidth="111.0" text="Description" />
+                  <TableColumn fx:id="locationCol" prefWidth="117.0" text="Location" />
+                  <TableColumn fx:id="contactCol" prefWidth="110.0" text="Contact" />
+                  <TableColumn fx:id="typeCol" prefWidth="112.0" text="Type" />
+                  <TableColumn fx:id="startCol" prefWidth="168.0" text="Start" />
+                  <TableColumn fx:id="endCol" prefWidth="167.0" text="End" />
+                  <TableColumn fx:id="customerIDCol" prefWidth="60.0" text="Cust. ID" />
+               </columns>
+            </TableView>
+            <Button fx:id="monthlyCalendarNext" alignment="CENTER" contentDisplay="CENTER" layoutX="741.0" layoutY="13.0" minWidth="90.0" mnemonicParsing="false" onAction="#onNext" text="Next &gt;&gt;" textAlignment="CENTER" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="10.0">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="monthlyCalendarPrevious" alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="13.0" minWidth="90.0" mnemonicParsing="false" onAction="#onPrevious" text="&lt;&lt; Previous" textAlignment="CENTER" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="10.0">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Button>
+            <Label fx:id="monthLabel" alignment="CENTER" layoutX="385.0" layoutY="25.0" prefHeight="25.0" prefWidth="150.0" text="Month" AnchorPane.leftAnchor="325.0" AnchorPane.rightAnchor="325.0" AnchorPane.topAnchor="20.0">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="280.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: a3a3a3;" AnchorPane.bottomAnchor="750.0" AnchorPane.leftAnchor="280.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ComboBox fx:id="mainCustomerChoice" layoutX="222.0" onAction="#onCustomerSelect" prefWidth="150.0" />
+            <Button fx:id="mainAddApt" layoutX="574.0" mnemonicParsing="false" onAction="#onAddAppointment" text="Add">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="mainUpdateApt" layoutX="635.0" mnemonicParsing="false" onAction="#onUpdateAppointment" text="Update">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="mainDeleteApt" layoutX="723.0" layoutY="1.0" mnemonicParsing="false" onAction="#onDeleteAppointment" prefHeight="27.0" text="Delete" textFill="#ee0808">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Button>
+          <Button fx:id="mainReports" layoutX="920.0" maxWidth="100.0" minWidth="100.0" mnemonicParsing="false" onAction="#onReports" prefHeight="1.0" prefWidth="100.0" text="Reports">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="allAppointments" layoutX="407.0" mnemonicParsing="false" onAction="#onAllAppt" text="Show All Appointments" />
+            <RadioButton fx:id="mainMonth" layoutX="119.0" layoutY="4.0" mnemonicParsing="false" onAction="#onMonth" selected="true" text="Month">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="calType" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="mainWeek" layoutX="14.0" layoutY="4.0" mnemonicParsing="false" onAction="#onWeek" text="Week" toggleGroup="$calType">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </RadioButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="750.0" prefWidth="1000.0" styleClass="gray-background" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.reportByContactController">
+   <children>
+      <ComboBox fx:id="contactSelect" layoutX="732.0" layoutY="7.0" onAction="#onSelect" prefWidth="150.0" promptText="Contact" />
+      <TableView fx:id="appointmentTable" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="50.0">
+         <columns>
+            <TableColumn fx:id="apptIDCol" prefWidth="56.0" text="Appt. ID" />
+            <TableColumn fx:id="titleCol" prefWidth="88.0" text="Title" />
+            <TableColumn fx:id="descriptionCol" prefWidth="205.51852416992188" text="Description" />
+            <TableColumn fx:id="locationCol" prefWidth="135.00006103515625" text="Location" />
+            <TableColumn fx:id="typeCol" minWidth="0.0" prefWidth="114.03863525390625" text="Type" />
+            <TableColumn fx:id="startCol" prefWidth="151.24627685546875" text="Start" />
+            <TableColumn fx:id="endCol" prefWidth="151.7537841796875" text="End" />
+            <TableColumn fx:id="customerIDCol" minWidth="0.0" prefWidth="86.4798583984375" text="Customer ID" />
+         </columns>
+      </TableView>
+      <Label alignment="CENTER" layoutX="403.0" layoutY="21.0" prefHeight="23.0" prefWidth="196.0" text="Schedule for Contact" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
